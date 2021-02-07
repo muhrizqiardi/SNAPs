@@ -1,11 +1,11 @@
 {
-    "description": "Adds a solid red border to all webpages matching mozilla.org. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#borderify",
-    "manifest_version": 2,
-    "name": "Borderify",
+    "description": "SNAPs: Say No to Article with (multiple) Pages, Add-on browser untuk menampilkan semua bagian dari artikel di website yang memecah artikelnya menjadi beberapa bagian.",
+    "manifest_version": 1,
+    "name": "SNAPs",
     "version": "1.0",
-    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+    "homepage_url": "https://github.com/muhrizqiardi/SNAPs",
     "icons": {
-        "48": "icons/border-48.png"
+        "48": "icons/snaps-48.png"
     },
     "content_scripts": [
         {
@@ -13,7 +13,7 @@
                 "*://*.mozilla.org/*"
             ],
             "js": [
-                "borderify.js"
+                "SNAPs.js"
             ]
         }
     ]
